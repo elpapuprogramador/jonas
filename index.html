@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tabla de Verdad - Compuertas Lógicas</title>
+  <link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+  <h1>Tabla de Verdad</h1>
+
+  <label for="gate">Selecciona una compuerta lógica:</label>
+  <select id="gate">
+    <option value="OR">OR</option>
+    <option value="AND">AND</option>
+    <option value="NAND">NAND</option>
+    <option value="NOR">NOR</option>
+    <option value="XOR">XOR</option>
+    <option value="XNOR">XNOR</option>
+  </select>
+
+  <table>
+    <thead>
+      <tr>
+        <th>A</th>
+        <th>B</th>
+        <th>Salida</th>
+      </tr>
+    </thead>
+    <tbody id="truth-table">
+      <!-- Filas generadas por JavaScript -->
+    </tbody>
+  </table>
+
+  <div class="footer">Hecho con ❤️ en HTML, CSS y JavaScript</div>
+  <script src="script.js"></script>
+</body>
+</html>
